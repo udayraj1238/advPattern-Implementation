@@ -1,0 +1,9 @@
+# Python cache
+__pycache__/
+
+# Environment folder
+pytorch_env/
+venv/
+
+# Jupyter cache
+.ipynb_checkpoints/
