@@ -1,6 +1,6 @@
 # advPattern: A PyTorch Implementation
 
-This repository contains my (Uday Raj's) from-scratch implementation of the research paper: **"advPattern: Physical-World Attacks on Deep Person Re-Identification"** (Wang et al.).
+This repository contains a from-scratch implementation of the research paper: **"advPattern: Physical-World Attacks on Deep Person Re-Identification"** (Wang et al.).
 
 The objective of this project was to replicate the paper's core findings by building a complete pipeline in PyTorch. This pipeline generates adversarial patterns designed to fool a state-of-the-art person re-identification (Re-ID) model, simulating a physical-world attack.
 
