@@ -45,3 +45,10 @@ conda create --name pytorch_env python=3.11 -y
 
 # 2. Activate the new environment
 conda activate pytorch_env
+
+# 1. Install PyTorch with CUDA (e.g., 11.8)
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
+
+# 2. Install all other required dependencies.
+# This list includes all packages needed by torchreid and our scripts.
+pip install torchreid numpy six h5py Pillow scipy scikit-learn metric-learn cython tabulate tqdm opencv-python gdown PyYAML tensorboard yacs
